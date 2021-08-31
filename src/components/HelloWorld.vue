@@ -1,6 +1,7 @@
 <template>
   <!-- this is services section -->
   <section style="background-color: #f6f3f3">
+    
     <div style="padding-bottom: 100px">
       <v-container>
         <div>
@@ -108,8 +109,40 @@
         </v-row>
       </v-container>
     </div>
+    <div style="padding-bottom: 50px;  ">
+      <v-container>
+        <v-row>
+          <v-col style="display: inline-flex" cols="12">
+            <v-col style="padding-top:50px" cols="6">
+              <h1 class="mb-4" style="font-size: 45px">Why Choose Us ?</h1>
+              <h3 class="mb-4">
+                Our team is always motivated to improve their skills and
+                knowledge by approaching new challenges and updates to our work
+                process.
+              </h3>
+              <h1 class="mb-4">Our Mission:</h1>
+              <h3 class="mb-4">
+                Embarking on a new project can be daunting. Knowing that you
+                have a team on your side who care about the growth of your
+                business makes it easier. We work harder to deliver a high
+                standard of products and services that fit with your digital
+                strategy, expectations and budget.
+              </h3>
+            </v-col>
+            <v-col cols="6">
+              <v-img
+                height="500"
+                width="500"
+                src="~@/assets/gm.png"
+              ></v-img>
+            </v-col>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+<div style="padding-top:150px">
 
-    <v-parallax dark style="background-color: #ffc400; height: 250px">
+    <v-parallax dark style="background-color: #ffc400; height: 250px; ">
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
           <h1 style="color: black; font: revert" class="text-h2 mb-4">
@@ -122,6 +155,7 @@
         </v-col>
       </v-row>
     </v-parallax>
+</div>
   </section>
 </template>
 <style>
