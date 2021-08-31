@@ -38,6 +38,7 @@
     </v-app-bar>
 
     <v-main>
+      <HeroSection/>
       <HelloWorld/>
     </v-main>
   </v-app>
@@ -45,11 +46,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import HeroSection from './components/HeroSection';
+
 
 export default {
   name: 'App',
 
   components: {
+    HeroSection,
     HelloWorld,
   },
 
