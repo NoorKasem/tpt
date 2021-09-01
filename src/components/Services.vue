@@ -156,10 +156,10 @@
       <v-parallax  dark style="background-color: #fcd44c; height: 250px">
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">
-            <h1 style="color: #232d4f; font: revert" class="text-h2 mb-4">
+            <h1 style="color: black; font: revert" class="text-h2 mb-4">
               Have a project in mind?!
             </h1>
-            <h4 style="color: #232d4f" class="font text-h5 mb-4">
+            <h4 style="color: black" class="font text-h5 mb-4">
               Let's get to work
             </h4>
             <!-- <v-btn
