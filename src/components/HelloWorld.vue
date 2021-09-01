@@ -18,7 +18,7 @@
           <br />
         </div>
         <v-row>
-          <v-col style="display: inline-flex" cols="12">
+          <v-col style ="display: inline-flex" cols="12">
             <v-col class="hover" cols="4">
               <v-card max-width="100%" style="background-color: WHITE">
                 <v-img src="~@/assets/ux.gif"></v-img>
