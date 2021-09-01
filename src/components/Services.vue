@@ -1,7 +1,7 @@
 <template>
   <!-- this is services section -->
-  <section   style="background-color: #f6f3f3">
-    <div  id="services" style="padding-bottom: 100px; padding-top:50px;">
+  <section style="background-color: #f6f3f3">
+    <div id="services" style="padding-bottom: 100px; padding-top: 50px">
       <v-container>
         <div class="font">
           <h1
@@ -18,7 +18,7 @@
           <br />
         </div>
         <v-row>
-          <v-col style ="display: inline-flex" cols="12">
+          <v-col style="display: inline-flex" cols="12">
             <v-col class="hover" cols="4">
               <v-card max-width="100%" style="background-color: WHITE">
                 <v-img src="~@/assets/ux.gif"></v-img>
@@ -121,10 +121,10 @@
           </v-col>
         </v-row>
       </v-container>
-    </div>
     <div id="d2"></div>
-    <div  style="padding-bottom: 50px">
-      <v-container >
+    </div>
+    <div style="padding-bottom: 50px">
+      <v-container>
         <v-row>
           <v-col style="display: inline-flex" cols="12">
             <v-col style="padding-top: 50px" cols="6">
@@ -146,14 +146,14 @@
               </div>
             </v-col>
             <v-col cols="6">
-              <v-img  height="500" width="500" src="~@/assets/gm.png"></v-img>
+              <v-img height="500" width="500" src="~@/assets/gm.png"></v-img>
             </v-col>
           </v-col>
         </v-row>
       </v-container>
     </div>
-    <div  style="padding-top: 150px">
-      <v-parallax  dark style="background-color: #fcd44c; height: 250px">
+    <div style="padding-top: 150px">
+      <v-parallax dark style="background-color: #fcd44c; height: 250px">
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">
             <h1 style="color: black; font: revert" class="text-h2 mb-4">
@@ -162,17 +162,10 @@
             <h4 style="color: black" class="font text-h5 mb-4">
               Let's get to work
             </h4>
-            <!-- <v-btn
-              style="border: 2px black solid"
-              tile
-              elevation="2"
-              x-large
-              text
-              >Contact Us</v-btn
-            > -->
           </v-col>
         </v-row>
       </v-parallax>
+      <div id="footer"></div>
     </div>
   </section>
 </template>

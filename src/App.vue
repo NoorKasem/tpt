@@ -1,6 +1,6 @@
 <template>
   <v-app >
-    <v-app-bar> 
+    <v-app-bar fixed> 
       <AppBar/>
     </v-app-bar>
 
