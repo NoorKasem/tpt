@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-app>
-      <v-app-bar  style="background-color: transparent !important"   fixed>
+      <v-app-bar dark color="red"  style="background-color: black !important"   fixed>
         
-        <!-- <v-img width="5" height="5" src="~@/assets/logo.png"></v-img> -->
+        <v-img contain width="50" height="50" src="~@/assets/logo.png"></v-img>
 
         <v-spacer></v-spacer>
 
@@ -12,6 +12,7 @@
         <v-btn    class="btn" text x-large>Contact</v-btn>
         <!-- v-scroll-to="'#services'" -->
 
+        <v-spacer></v-spacer>
         <v-spacer></v-spacer>
         <v-btn class="img-nav" icon>
           <v-icon color="blue">mdi-facebook</v-icon>
