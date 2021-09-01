@@ -6,20 +6,20 @@
 
     <v-main>
       <HeroSection/>
-      <HelloWorld />
+      <Services />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Services from "./components/Services";
 import AppBar from "./components/AppBar.vue";
 import HeroSection from "./components/HeroSection.vue"
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    Services,
     AppBar,
     HeroSection,
   },

@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-app>
-      <v-app-bar  style="color: transparent !important" fixed>
+      <v-app-bar  style="color: transparent !important"  fixed>
         
         <!-- <v-img width="5" height="5" src="~@/assets/logo.png"></v-img> -->
 
         <v-spacer></v-spacer>
 
-        <v-btn class="btn" text x-large>Services</v-btn>
+        <v-btn  class="btn" text x-large>Services</v-btn>
         <v-btn class="btn" text x-large>Why Choose Us</v-btn>
         <v-btn class="btn" text x-large>Contact</v-btn>
 
