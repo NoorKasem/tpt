@@ -145,7 +145,7 @@
               </div>
             </v-col>
             <v-col cols="6">
-              <v-img height="500" width="500" src="~@/assets/gm.png"></v-img>
+              <v-img  height="500" width="500" src="~@/assets/gm.png"></v-img>
             </v-col>
           </v-col>
         </v-row>
@@ -175,7 +175,7 @@
     </div>
   </section>
 </template>
-<style>
+<style >
 .v-card__title {
   display: block !important;
 }
