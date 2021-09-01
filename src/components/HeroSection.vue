@@ -12,6 +12,7 @@
                 class="mt-6"
                 depressed
                 color="#ffc400"
+                x-large
               >
                 Let's Start
               </v-btn>

@@ -1,7 +1,7 @@
 <template>
   <!-- this is services section -->
-  <section style="background-color: #f6f3f3">
-    <div style="padding-bottom: 100px">
+  <section   style="background-color: #f6f3f3">
+    <div  id="services" style="padding-bottom: 100px">
       <v-container>
         <div class="font">
           <h1
@@ -122,8 +122,9 @@
         </v-row>
       </v-container>
     </div>
-    <div style="padding-bottom: 50px">
-      <v-container>
+    <div id="d2"></div>
+    <div  style="padding-bottom: 50px">
+      <v-container >
         <v-row>
           <v-col style="display: inline-flex" cols="12">
             <v-col style="padding-top: 50px" cols="6">
@@ -151,8 +152,8 @@
         </v-row>
       </v-container>
     </div>
-    <div style="padding-top: 150px">
-      <v-parallax dark style="background-color: #fcd44c; height: 250px">
+    <div  style="padding-top: 150px">
+      <v-parallax  dark style="background-color: #fcd44c; height: 250px">
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">
             <h1 style="color: #232d4f; font: revert" class="text-h2 mb-4">
