@@ -1,7 +1,7 @@
 <template>
   <!-- this is services section -->
   <section style="background-color: #f6f3f3">
-    <div id="services" style="padding-bottom: 100px; padding-top: 50px">
+    <div id="services" style="padding-bottom: 100px; padding-top: 30px">
       <v-container>
         <div class="font">
           <h1
