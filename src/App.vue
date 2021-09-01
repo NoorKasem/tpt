@@ -5,6 +5,7 @@
     </v-app-bar>
 
     <v-main>
+      <HeroSection/>
       <HelloWorld />
     </v-main>
   </v-app>
@@ -13,13 +14,14 @@
 <script>
 import HelloWorld from "./components/HelloWorld";
 import AppBar from "./components/AppBar.vue";
-
+import HeroSection from "./components/HeroSection.vue"
 export default {
   name: "App",
 
   components: {
     HelloWorld,
     AppBar,
+    HeroSection,
   },
 
   data: () => ({

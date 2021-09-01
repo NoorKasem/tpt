@@ -175,7 +175,7 @@
     </div>
   </section>
 </template>
-<style >
+<style scoped >
 .v-card__title {
   display: block !important;
 }

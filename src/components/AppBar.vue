@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app>
-      <v-app-bar dense style="color: transparent !important" fixed>
+      <v-app-bar  style="color: transparent !important" fixed>
         
         <!-- <v-img width="5" height="5" src="~@/assets/logo.png"></v-img> -->
 
