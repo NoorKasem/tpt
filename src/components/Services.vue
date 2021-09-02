@@ -152,7 +152,7 @@
         </v-row>
       </v-container>
     </div>
-    <div style="padding-top: 150px">
+    <div style="padding-top: 150px; ">
       <v-parallax dark style="background-color: #fcd44c; height: 250px">
         <v-row align="center" justify="center">
           <v-col class="text-center" cols="12">

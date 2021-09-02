@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar dark fixed>
+  <v-app-bar style="background-color:black" dark fixed>
     <v-img contain width="50" height="50" src="~@/assets/logo.png"></v-img>
         <v-btn
           icon id="mode-switcher"
@@ -36,7 +36,7 @@
   font-family: Comic sans ms;
 }
 .btn:hover {
-  border-bottom: 4px solid '(color:'#ffc400')';
+  border-bottom: 4px solid  #ffc400;
   border-top: 4px solid #ffc400;
 }
 .img-nav {

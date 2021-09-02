@@ -7,6 +7,7 @@
     <v-main>
       <HeroSection/>
       <Services />
+      <Footer/>
        <v-flex xs12>
        <v-btn
             v-scroll="onScroll"
@@ -30,6 +31,7 @@
 import Services from "./components/Services";
 import AppBar from "./components/AppBar.vue";
 import HeroSection from "./components/HeroSection.vue"
+import Footer from "./components/Footer.vue"
 export default {
   name: "App",
 
@@ -37,6 +39,7 @@ export default {
     Services,
     AppBar,
     HeroSection,
+    Footer,
   },
 
   data: () => ({
