@@ -11,7 +11,7 @@
                 v-scroll-to="'#Di1'"
                 class="mt-6"
                 depressed
-                color="#ffc400"
+                color="primary"
                 x-large
               >
                 Let's Start
@@ -30,7 +30,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~@/assets/Hero.jpg');
   background-size: cover;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
 }
 .textHero {
   color: white;

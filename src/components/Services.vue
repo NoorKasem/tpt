@@ -1,6 +1,6 @@
 <template>
   <!-- this is services section -->
-  <section style="background-color: #f6f3f3">
+  <section style="background-color: secondary">
     <div id="services" style="padding-bottom: 100px; padding-top: 30px">
       <v-container>
         <div class="font">
@@ -11,7 +11,7 @@
             OUR SERVICES
           </h1>
 
-          <h3 class="d-flex justify-center" style="color: #424242">
+          <h3 class="d-flex justify-center" style="color:anchor">
             TPT team will assist you through all stages, from planning, design,
             development, And launching!
           </h3>
@@ -20,7 +20,7 @@
         <v-row>
           <v-col style="display: inline-flex" cols="12">
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img src="~@/assets/ux.gif"></v-img>
 
                 <v-card-title style="font-size: 20px" class="font text-center"
@@ -36,7 +36,7 @@
               </v-card>
             </v-col>
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img src="~@/assets/72856-software-development.gif"></v-img>
 
                 <v-card-title style="font-size: 20px" class="font text-center"
@@ -54,7 +54,7 @@
               </v-card>
             </v-col>
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img src="~@/assets/back.gif"></v-img>
                 <v-card-title style="font-size: 20px" class="font text-center"
                   >Back-End Development</v-card-title
@@ -71,7 +71,7 @@
           </v-col>
           <v-col style="display: inline-flex" cols="12">
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img
                   src="~@/assets/55562-boy-using-social-media-on-phone.gif"
                 ></v-img>
@@ -88,7 +88,7 @@
               </v-card>
             </v-col>
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img src="~@/assets/animation_500_kszqt9wi.gif"></v-img>
 
                 <v-card-title style="font-size: 20px" class="font text-center"
@@ -105,7 +105,7 @@
               </v-card>
             </v-col>
             <v-col class="hover" cols="4">
-              <v-card max-width="100%" style="background-color: WHITE">
+              <v-card max-width="100%" style="background-color: bas">
                 <v-img src="~@/assets/animation_500_ksz4snpq.gif"></v-img>
                 <v-card-title style="font-size: 20px" class="font text-center"
                   >Cloud Storage</v-card-title
