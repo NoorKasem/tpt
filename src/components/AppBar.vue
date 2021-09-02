@@ -1,10 +1,14 @@
 <template>
   <v-app-bar dark fixed>
     <v-img contain width="50" height="50" src="~@/assets/logo.png"></v-img>
-    <v-btn x-large icon>
-      <v-icon color="#ffc400">mdi-lightbulb-on</v-icon>
-    </v-btn>
-
+        <v-btn
+          icon id="mode-switcher"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark"
+        >
+          <v-icon :color="($vuetify.theme.dark) ? 'primary' : 'primary'">
+            {{ ($vuetify.theme.dark) ? 'mdi-weather-night' : 'mdi-weather-sunny' }}
+          </v-icon>
+        </v-btn>
     <v-spacer></v-spacer>
 
     <v-btn v-scroll-to="'#services'" class="btn" text x-large>Services</v-btn>
@@ -32,7 +36,7 @@
   font-family: Comic sans ms;
 }
 .btn:hover {
-  border-bottom: 4px solid #ffc400;
+  border-bottom: 4px solid '(color:'#ffc400')';
   border-top: 4px solid #ffc400;
 }
 .img-nav {
