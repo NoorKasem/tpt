@@ -1,4 +1,5 @@
 <template>
+<!-- this is footer -->
   <v-footer
     style="background-color: black !important"
     class="indigo text-center"
